@@ -4,6 +4,9 @@
   font-style: normal;
 }
 
+body{
+    margin: 0px;
+}
 
 header{
     width: 100%;
@@ -59,12 +62,14 @@ header{
 
 .second-section{
     display: flex;
-    gap: auto;
+    gap: 65px;
     width: 1140px;
     height: 328px;
     margin-right: 159px;
     margin-left: 141px;
     border-radius: 25px;
+    margin-top: 100px;
+    padding: 30px;
 }
 .second-heading{
     font-weight: bold;
@@ -72,5 +77,65 @@ header{
 }
 .second-description{
     font-size: 24px;
-    color: #252432 50%;
+    color: rgba(37, 36, 50, 50%)
+}
+.btn2{
+    width: 229px;
+    height: 48px;
+    margin-top: 23px;
+}
+
+.third-section{
+    background-color: rgba(78, 71, 255, 10%);
+    margin-left: 141px;
+    margin-right: 159px;
+    padding: 50px 80px 50px 80px;
+    width: 1140px;
+    height: 360px;
+    border-radius: 35px;
+    margin-top: 75px;
+    margin-bottom: 100px;
+
+
+}
+
+.number{
+    display: flex;
+    justify-content:space-around ;
+}
+.third-section h2{
+    color:#4E47FF;
+    font-weight: bold;
+    font-size: 80px;
+}
+.third-section p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 50%);
+    margin-top: 1px;
+}
+.third-heading{
+    font-weight: bold;
+    font-size: 38px;
+    margin-left: 185px;
+    margin-right: 185px;
+    margin-bottom: 40px;
+    color: #252432;
+}
+
+
+
+.fourth-heading{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+
+.reviewbord{
+    display: flex;
+}
+
+.profile{
+    display: flex;
 }
