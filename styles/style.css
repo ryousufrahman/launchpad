@@ -60,7 +60,7 @@ header{
 
 /*heo section ended*/
 
-body{
+main , header{
     background-color: rgba(78, 71, 255, 10%);
 }
 
@@ -74,6 +74,7 @@ body{
     border-radius: 25px;
     margin-top: 100px;
     padding: 30px;
+    
 }
 .second-heading{
     font-weight: bold;
@@ -153,6 +154,7 @@ body{
     background-color: white;
     padding: 30px;
     gap: 20px;
+    border-radius: 5px;
     
 }
 .icon{
@@ -209,4 +211,74 @@ body{
 .fift-heading h1{
     font-weight: bold;
     font-size: 50px;
+}
+
+.last-form{
+    display: flex;
+    gap: 50px;
+    height: 632px;
+    width: 1140px;
+    margin-left: 141px;
+    margin-right: 141px;
+    justify-content: space-between;
+    
+}
+.last-heading{
+    font-weight: bold;
+    font-size: 50px;
+}
+form input{
+    width: 497px;
+    height: 70px;
+    padding:5px 20px ;
+    border: none;
+    border-radius: 10px;
+}
+form textarea{
+    width: 497px;
+    height: 135px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.form1{
+    margin-bottom: 14px;
+}
+.btn6{
+    width: 497px;
+    height: 61px;
+}
+footer{
+    background-color: white;
+}
+footer h1{
+    font-weight: bold;
+    font-size: 100px;
+    color: #4E47FF;
+    text-align: center;
+    
+}
+footer p{
+    
+    color: #8987A1;
+    text-align: center;
+    margin-top: 20px;
+}
+.footer-box{
+    width: 50%;
+    margin: 0 auto;
+}
+footer ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color:#8987A1;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    
+}
+footer li{
+    li
 }
